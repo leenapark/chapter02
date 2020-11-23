@@ -12,10 +12,11 @@ public class Goods {
 	//메소드 - 일반
 	//name 등록하는 기능
 	//setName() 이름 등록
-	public void setName(String n) {
-		name = n; //"니콘""LG그램""머그컵" 등등등
+	public void setName(String n) {//void 아무것도 쓸 수 없을 때 비워둔다는 의미로 사용된다
+		name = n; //"니콘""LG그램""머그컵" 등등등 올 수 있는 다용도 틀
 		//return은 생략 가능
 	}
+	//name 읽어주는 기능
 	//getName() 이름 읽기
 	public String getName() {
 		return name;
