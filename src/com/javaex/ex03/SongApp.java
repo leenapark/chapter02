@@ -8,6 +8,8 @@ public class SongApp {
 		//메인
 		//2번째 문법 (바로 사용 (생성자 코드))
 		Song songInfo1 = new Song("좋은 날", "아이유", "Real", "이민수", "2010", 3);
+		songInfo1.showInfo();
+		
 		/*
 		//songTitle
 		songInfo1.setTitle("좋은 날");
@@ -36,10 +38,9 @@ public class SongApp {
 		songInfo1.setYear("2010");
 		songInfo1.setTrack(3);
 		*/
-	
-		songInfo1.showInfo();
 		
 		Song songInfo2 = new Song("거짓말", "BIGBANG", "Always", "G-DRAGON", "2007", 2);
+		songInfo2.showInfo();
 		
 		/*
 		//songTitle
@@ -62,9 +63,8 @@ public class SongApp {
 		int track2 = songInfo2.getTrack();
 		*/
 		
-		songInfo2.showInfo();
-		
 		Song songInfo3 = new Song("벚꽃 엔딩", "버스커버스커", "버스커버스커1집", "장범준", "2012", 4);
+		songInfo3.showInfo();
 		
 		/* getter/setter
 		//songTitle
@@ -86,7 +86,6 @@ public class SongApp {
 		songInfo3.setTrack(4);
 		int track3 = songInfo3.getTrack();
 		*/
-		songInfo3.showInfo();
 	
 		
 	}

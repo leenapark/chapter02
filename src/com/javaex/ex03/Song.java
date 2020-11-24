@@ -87,8 +87,7 @@ public class Song {
 		return track;
 	}
 	
-	*/
-	
+		
 	public String getTitle() {
 		return title;
 	}
@@ -136,6 +135,7 @@ public class Song {
 	public void setTrack(int track) {
 		this.track = track;
 	}
+	*/
 	
 	public void showInfo(){
 		System.out.println(artist + ", " + title + "( " + album + ", " + year + ", " + track + "번 track, " + composer + " 작곡" + " )");

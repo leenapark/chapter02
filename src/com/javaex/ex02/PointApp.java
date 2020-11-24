@@ -8,6 +8,15 @@ public class PointApp {
 		Point p1 = new Point(2, 2);
 		p1.draw();
 		
+		Point p2 = new Point(5, 5);
+		p2.draw();
+		
+		Point p3 = new Point(10, 23);
+		p3.draw();
+		
+		Point p4 = new Point(33, 55);
+		p4.draw();
+				
 		/*캡슐화
 		p1.x = 2;
 		p1.y = 2;
