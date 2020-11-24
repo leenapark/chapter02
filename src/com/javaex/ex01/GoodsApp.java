@@ -37,17 +37,28 @@ public class GoodsApp {
 		*/
 		
 		
-		//
+		//name
 		camera.setName("니콘");
-		String name = camera.getName();
-	
-		System.out.println(name);
+		String cameraName = camera.getName();
+		//System.out.println(name);
 		
 		//price
 		camera.setPrice(400000);
-		int price = camera.getPrice();
-		System.out.println(price);
+		int cameraPrice = camera.getPrice();
+		//System.out.println(price);
 		
+		camera.showInfo();
+		
+		Goods computer = new Goods();
+		//name
+		computer.setName("LG그램");
+		String computerName = computer.getName();
+		
+		//price
+		computer.setPrice(1000000);
+		int computerPrice = computer.getPrice();		
+		
+		computer.showInfo();
 	}
 
 }

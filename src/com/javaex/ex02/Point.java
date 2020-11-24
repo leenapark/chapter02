@@ -5,12 +5,14 @@ public class Point {
 	//캡슐화
 	private int x;
 	private int y;
+	
+	//double 연습
+	private double z;
 
 	//메소드 만들기
 	//setter 이름 등록
-	int setx(int xset) {
+	public void setx(int xset) {
 		x = xset;
-		return x;
 	}
 	
 	//getter 이름 읽기
@@ -20,16 +22,24 @@ public class Point {
 	
 	
 	//setter
-	public int sety(int yset) {
+	public void sety(int yset) {
 		y = yset;
-		return y;
 	}
 	//getter
-	public int gety(int yget) {
+	public int gety() {
 		return y;
 	}
 	
+	public void draw() {
+		System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+	}
 	
-	//p1 p2 p3 p4
+	public void setZ(double zSet) {
+		z = zSet;
+	}
+	
+	public double getZ() {
+		return z;
+	}
 
 }

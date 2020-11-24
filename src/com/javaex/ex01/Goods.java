@@ -30,4 +30,9 @@ public class Goods {
 	public int getPrice() {
 		return price;
 	}
+	
+	//프린트 명 통일해주는 법
+	public void showInfo() {
+		System.out.println("상품이름: " + name + " 가격: " + price);
+	}
 }
