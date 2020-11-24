@@ -5,20 +5,21 @@ public class PointApp {
 	public static void main(String[] args) {
 		
 		//메인
-		Point p1 = new Point();
+		Point p1 = new Point(2, 2);
+		p1.draw();
 		
 		/*캡슐화
 		p1.x = 2;
 		p1.y = 2;
 		*/
 		
+		/*
 		p1.setx(2);
 		int x = p1.getx();
 		
 		p1.sety(2);
 		int y = p1.gety();
 		
-		p1.draw();
 		
 		Point p2 = new Point();
 		
@@ -46,7 +47,7 @@ public class PointApp {
 		double z = p4.getZ();
 		
 		System.out.println(z);
-		
+		*/
 		
 	}
 

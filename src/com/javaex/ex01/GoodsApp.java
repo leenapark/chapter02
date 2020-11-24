@@ -4,7 +4,7 @@ public class GoodsApp {
 
 	public static void main(String[] args) {
 		
-		Goods camera = new Goods();
+		Goods camera = new Goods("니콘", 400000);
 		//캡슐화로 사용 불가
 		/*
 		camera.name = "니콘";
@@ -36,7 +36,7 @@ public class GoodsApp {
 		System.out.println(camera.price);
 		*/
 		
-		
+		/*
 		//name
 		camera.setName("니콘");
 		String cameraName = camera.getName();
@@ -46,10 +46,12 @@ public class GoodsApp {
 		camera.setPrice(400000);
 		int cameraPrice = camera.getPrice();
 		//System.out.println(price);
-		
+		*/
 		camera.showInfo();
 		
-		Goods computer = new Goods();
+		Goods computer = new Goods("LG그램", 1000000);
+		
+		/*메소드 셋터/겟터
 		//name
 		computer.setName("LG그램");
 		String computerName = computer.getName();
@@ -57,7 +59,7 @@ public class GoodsApp {
 		//price
 		computer.setPrice(1000000);
 		int computerPrice = computer.getPrice();		
-		
+		*/
 		computer.showInfo();
 	}
 

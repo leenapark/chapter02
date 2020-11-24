@@ -7,8 +7,14 @@ public class Point {
 	private int y;
 	
 	//double 연습
-	private double z;
+	//private double z;
 
+	public Point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	/*
 	//메소드 만들기
 	//setter 이름 등록
 	public void setx(int xset) {
@@ -30,10 +36,6 @@ public class Point {
 		return y;
 	}
 	
-	public void draw() {
-		System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
-	}
-	
 	public void setZ(double zSet) {
 		z = zSet;
 	}
@@ -41,5 +43,9 @@ public class Point {
 	public double getZ() {
 		return z;
 	}
-
+	*/
+	
+	public void draw() {
+		System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+	}
 }
