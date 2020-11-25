@@ -16,16 +16,16 @@ public class Tv {
 		this.power = power;
 	}
 	
-	public Tv() {}
-	
 	//메소드
+	
+	public Tv() {}
 	
 	// void power(boolean on) 메소드 구현
 		public void power( boolean on ) {
 			if(on == true) {
-				System.out.println("on");
+				this.power = true;
 			}else {
-				System.out.println("off");
+				this.power = false;
 			}
 		}
 		
@@ -43,7 +43,9 @@ public class Tv {
 	// void channel(boolean up) 오버로딩 : 1씩 증감
 		public void channel(boolean up) {
 			if(up == true) {
-				this.channel = channel++;
+				this.channel++;
+			}else {
+				this.channel--;
 			}
 		}
 	// void volume(int volume) 메소드 구현 (0~100 유지)
@@ -56,7 +58,14 @@ public class Tv {
 				this.volume = volume;
 			}
 		}
-		
+	// void volume(boolean up) 메소드 오버 로등: 1씩 증감
+		public void volume(boolean up) {
+			if(up == true) {
+				this.volume++;
+			}else if(up == false){
+				this.volume--;
+			}
+		}
 		
 	//메소드 일반 : test toString
 	@Override
