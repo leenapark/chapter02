@@ -7,13 +7,17 @@ public class Goods {
 	private int price;
 		
 	//생성자
+	public Goods() {//다른 생성자가 있으면 (명령이 없더라도) 생략할 수 없다
+	}
+	
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
 	}
 	
+
 	//메소드 - getter / setter
-	/*
+	
 	//메소드 - 일반
 	//name 등록하는 기능
 	//setName() 이름 등록
@@ -35,8 +39,8 @@ public class Goods {
 	public int getPrice() {
 		return price;
 	}
-	*/
 	
+	//메소드 일반
 	//프린트 명 통일해주는 법
 	public void showInfo() {
 		System.out.println("상품이름: " + name + " 가격: " + price);
