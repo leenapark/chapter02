@@ -21,6 +21,6 @@ public class MyMath {
 	//반지름 계산식을 만들어보자(심화 학습 예제)
 	public static double circle(double r) {
 		return r*r*pi;
-	}
+	} 
 	
 }
