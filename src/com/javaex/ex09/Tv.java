@@ -16,7 +16,7 @@ public class Tv {
 		this.power = power;
 	}
 	
-	public Tv() {}
+	public Tv() {} //불필요한 부분
 	
 	//메소드
 	

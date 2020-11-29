@@ -1,6 +1,8 @@
 package com.javaex.ex09;
 
 public class TvExplan {
+	
+	//필드
 	private int channel;
 	private int volume;
 	private boolean power;
