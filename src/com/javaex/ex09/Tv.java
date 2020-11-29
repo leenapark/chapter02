@@ -16,9 +16,9 @@ public class Tv {
 		this.power = power;
 	}
 	
-	//메소드
-	
 	public Tv() {}
+	
+	//메소드
 	
 	// void power(boolean on) 메소드 구현
 		public void power( boolean on ) {
@@ -42,7 +42,7 @@ public class Tv {
 		}
 	}
 	
-	// void channel(boolean up) 오버로딩 : 1씩 증감
+	// void channel(boolean up) 메소드 오버로딩 : 1씩 증감
 		public void channel(boolean up) {
 			if(up == true) {
 				this.channel++;
@@ -62,7 +62,7 @@ public class Tv {
 				}	
 			}
 		}
-	// void volume(boolean up) 메소드 오버 로등: 1씩 증감
+	// void volume(boolean up) 메소드 오버로딩: 1씩 증감
 		public void volume(boolean up) {
 			if(up == true) {
 				this.volume++;
