@@ -26,6 +26,15 @@ public class TvApp {
 		
 		tv.power(false);
 		tv.status();
+		
+		System.out.println("===================");
+		
+		tv.volume(50);
+		tv.channel(91);
+		tv.status();
+		
+		tv.volume(false);
+		tv.status();
 	}
 
 }

@@ -31,12 +31,14 @@ public class Tv {
 		
 	//void channel(int channel) 1~255 유지
 	public void channel(int channel) {
-		if(channel<1) {//복잡한 로직이 있을 수 잇음
-			this.channel = 1;
-		}else if(channel>255){
-			this.channel = 255;
-		}else {	
-			this.channel = channel;
+		if(power == true) {
+			if(channel<1) {//복잡한 로직이 있을 수 잇음
+				this.channel = 1;
+			}else if(channel>255){
+				this.channel = 255;
+			}else {	
+				this.channel = channel;
+			}	
 		}
 	}
 	
@@ -50,12 +52,14 @@ public class Tv {
 		}
 	// void volume(int volume) 메소드 구현 (0~100 유지)
 		public void volume(int volume) {
-			if(volume<1) {
-				this.volume = 0;
-			}else if(volume>100){
-				this.volume = 100;
-			}else {
-				this.volume = volume;
+			if(power == true) {
+				if(volume<0) {
+					this.volume = 0;
+				}else if(volume>100){
+					this.volume = 100;
+				}else {
+					this.volume = volume;
+				}	
 			}
 		}
 	// void volume(boolean up) 메소드 오버 로등: 1씩 증감
