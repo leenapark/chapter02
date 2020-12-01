@@ -12,6 +12,7 @@ public class PointApp {
 		Point cp2 = new ColorPoint(27, 83, "pink");
 		
 		
+		
 
 	}
 
