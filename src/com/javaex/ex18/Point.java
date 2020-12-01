@@ -3,8 +3,8 @@ package com.javaex.ex18;
 public class Point {
 	
 	//	필드
-	private int x;
-	private int y;
+	protected int x;
+	protected int y;
 	
 	//	생성자
 	public Point(int x, int y) {
@@ -31,6 +31,12 @@ public class Point {
 
 	
 	//메소드 일반
+	//	출력용 showInfo()
+	public void showInfo() {
+		System.out.println("x: " + x + " y: " + y);
+	}
+	
+	//	test용 toString
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
