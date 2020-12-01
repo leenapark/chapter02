@@ -8,9 +8,13 @@ public class Tv {
 	private int volume;
 	
 	
+	//기본 생성자 생략
+	//--> 기본 생성자가 존재했으나 아래 생성자를 만들어줌으로써 사라짐
+	
 	//생성자
 	//기본 초기화 생성
 	public Tv(int channel, int volume, boolean power) {
+		//case 1 : 볼륨과 채널 범위 체크없이 진행할 때
 		this.channel = channel;
 		this.volume = volume;
 		this.power = power;
