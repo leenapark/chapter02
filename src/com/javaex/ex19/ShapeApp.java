@@ -5,13 +5,13 @@ public class ShapeApp {
 	public static void main(String[] args) {
 		//	메인
 		//	배열로 관리하기
-		Ractangle[] rArray = new Ractangle[3];
+		Rectangle[] rArray = new Rectangle[3];
 		
 		
 		//	사각형 테스트
-		Ractangle r01 = new Ractangle("빨강", "노랑", 5,10);
-		Ractangle r02 = new Ractangle("검정", "하양", 11, 8);
-		Ractangle r03 = new Ractangle("분홍", "노랑", 11, 9);
+		Rectangle r01 = new Rectangle("빨강", "노랑", 5,10);
+		Rectangle r02 = new Rectangle("검정", "하양", 11, 8);
+		Rectangle r03 = new Rectangle("분홍", "노랑", 11, 9);
 
 		//	배열에 주소값 대입
 		rArray[0] = r01;

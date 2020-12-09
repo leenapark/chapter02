@@ -1,16 +1,16 @@
 package com.javaex.ex21;
 
-public class Ractangle extends Shape {
+public class Rectangle extends Shape {
 
 	//필드
 	private int width;
 	private int height;
 	
 	//생성자
-	public Ractangle() {
+	public Rectangle() {
 	}
 
-	public Ractangle(String fillColor, String lineColor, int width, int height) {
+	public Rectangle(String fillColor, String lineColor, int width, int height) {
 		super(fillColor, lineColor);
 		this.width = width;
 		this.height = height;

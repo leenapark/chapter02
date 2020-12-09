@@ -20,7 +20,7 @@ public class ShapeApp {
 		//점 + 도형 함께 관리
 		Drawable[] dArray = new Drawable[4];
 		
-		Drawable r01 = new Ractangle("하양", "검정", 3, 2);
+		Drawable r01 = new Rectangle("하양", "검정", 3, 2);
 		Drawable c01 = new Circle("분홍", "노랑", 10);
 		Drawable t01 = new Triangle("분홍", "청록", 12, 2);
 		Drawable p01 = new Point(8, 3);

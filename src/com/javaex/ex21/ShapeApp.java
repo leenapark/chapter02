@@ -7,7 +7,7 @@ public class ShapeApp {
 		Shape[] sArray = new Shape[3];
 		
 		Shape c01 = new Circle("하양", "검정", 8);
-		Shape r01 = new Ractangle("분홍", "노랑", 11, 10);
+		Shape r01 = new Rectangle("분홍", "노랑", 11, 10);
 		Shape T01 = new Triangle("분홍", "청록", 10, 10);
 		
 		sArray[0] = c01;

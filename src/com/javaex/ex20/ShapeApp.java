@@ -10,7 +10,7 @@ public class ShapeApp {
 		
 		//사각형 만들기
 		//Ractangle r = new Ractangle("검정", "하양", 11, 8); --> dksehla
-		Shape r01 = new Ractangle("검정", "하양", 11, 8);
+		Shape r01 = new Rectangle("검정", "하양", 11, 8);
 				
 		
 		//원 만들기
